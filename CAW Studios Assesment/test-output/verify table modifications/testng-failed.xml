@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [verify table modifications]">
+  <test thread-count="5" name="Verify Components in the Homepage(failed)">
+    <classes>
+      <class name="com.caw.testCases.InputDataToTableAndRefresh">
+        <methods>
+          <include name="tearDown"/>
+          <include name="insertDataIntoTextBox"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.caw.testCases.InputDataToTableAndRefresh -->
+      <class name="com.caw.testCases.VerifyGivenInputInTable">
+        <methods>
+          <include name="isOutputMatches"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.caw.testCases.VerifyGivenInputInTable -->
+    </classes>
+  </test> <!-- Verify Components in the Homepage(failed) -->
+</suite> <!-- Failed suite [verify table modifications] -->

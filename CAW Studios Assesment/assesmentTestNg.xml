@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "verify table modifications">
+
+<!-- Verify Components in the Homepage -->
+<test name = "Verify Components in the Homepage">
+<classes>
+<class name="com.caw.testCases.HomePageVerify"></class>
+</classes>
+</test> 
+
+
+<!-- Input Data to the Table and Click Refresh -->
+<!-- <test name = "Input Data to the Table and Click Refresh">
+<classes>
+<class name="com.caw.testCases.InputDataToTableAndRefresh">
+<methods>
+   <include name="insertDataIntoTextBox" />
+</methods>
+</class>
+</classes>
+</test>   -->
+
+
+<!-- Verify Given Input with the csv file -->
+<!--  <test name = "Verify Given Input with the csv file">
+<classes>
+<class name="com.caw.testCases.VerifyGivenInputInTable">
+<methods>
+   <include name="isOutputMatches" />
+</methods>
+</class>
+</classes>
+</test>  -->
+
+
+</suite>
