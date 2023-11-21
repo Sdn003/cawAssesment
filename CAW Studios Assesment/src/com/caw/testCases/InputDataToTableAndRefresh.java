@@ -12,7 +12,7 @@ import com.caw.pageObjects.HomePageObject;
 
 public class InputDataToTableAndRefresh extends InitilaizeTest {
 
-	@Test(priority =1)
+	@Test
 	public void insertDataIntoTextBox() throws IOException {
 		PageFactory.initElements(driver, HomePageObject.class);
 		HomePageObject.button_to_display_textbox.click();
@@ -29,6 +29,5 @@ public class InputDataToTableAndRefresh extends InitilaizeTest {
 		log.info("Data Added to the Table");
 		
 	}
-	
 	
 }

@@ -32,5 +32,4 @@ public class HomePageObject {
 	public static List<WebElement> get_cell_data_from_table;
 	
 
-	
 }
